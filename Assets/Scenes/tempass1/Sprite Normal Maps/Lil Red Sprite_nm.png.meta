@@ -9,15 +9,15 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
-    sRGBTexture: 1
+    enableMipMap: 1
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapsPreserveCoverage: 0
     alphaTestReferenceValue: 0.5
-    mipMapFadeDistanceStart: 1
-    mipMapFadeDistanceEnd: 3
+    mipMapFadeDistanceStart: 3
+    mipMapFadeDistanceEnd: 5
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
@@ -55,9 +55,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 1
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -103,12 +103,12 @@ TextureImporter:
       name: Lil Red Sprite_nm_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 26
         y: 0
-        width: 2417
-        height: 945
+        width: 321
+        height: 934
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -121,11 +121,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Lil Red Sprite_nm_1
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 318
+        height: 934
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9244c2a180b2e0d42aa1882a3e02905f
+      internalID: 17035388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lil Red Sprite_nm_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 363
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e40ad57b75aefc4a8f95cfe26fa7e53
+      internalID: -1605010866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lil Red Sprite_nm_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 359
+        height: 925
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63daec92e06335649b332a72b93516d0
+      internalID: -1136513618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lil Red Sprite_nm_4
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 0
+        width: 453
+        height: 849
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484b815ba925ea94a83980b70e20dbf0
+      internalID: -1665122868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f6d5e4a9054266041b0306db6ceeff19
     internalID: 0
     vertices: []
     indices: 
@@ -136,6 +224,10 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Lil Red Sprite_nm_0: -1927775304652788169
+      Lil Red Sprite_nm_1: 17035388
+      Lil Red Sprite_nm_2: -1605010866
+      Lil Red Sprite_nm_3: -1136513618
+      Lil Red Sprite_nm_4: -1665122868
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
