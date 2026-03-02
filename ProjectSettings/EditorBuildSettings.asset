@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Lil RedHood Scene.unity
+    guid: 54507a11b54988f47b547519dfb850fc
+  - enabled: 1
+    path: Assets/Scenes/RedScene.unity
+    guid: 6642205867772d34b9e817e70a5b6659
+  - enabled: 1
+    path: Assets/Scenes/BlueScene.unity
+    guid: b1060b2d1239594449cfe8d693ae2e15
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
