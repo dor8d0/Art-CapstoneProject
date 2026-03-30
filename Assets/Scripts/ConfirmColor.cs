@@ -92,18 +92,21 @@ public class ColorSelectionHandler : MonoBehaviour
     public void ConfirmSelection()
     {
         Debug.Log("Confirm Clicked. State is: " + state);
-
-        if (state == 1) // RED
-        {
-            SceneManager.LoadScene("RedScene");
-        }
-        else if (state == 2) // BLUE
-        {
-            SceneManager.LoadScene("BlueScene");
-        }
-        else // OFF
-        {
-            Debug.Log("No color selected yet. Current state: " + state);
-        }
+        GameData.selectedColor = spotLight.color;
+        GameData.selectedIntensity = spotLight.intensity;
+        GameData.selectedColorState = state; 
+        SceneManager.LoadScene("RedScene");
+        //if (state == 1) // RED
+        //{
+           // SceneManager.LoadScene("RedScene");
+        //}
+        //else if (state == 2) // BLUE
+        //{
+          //  SceneManager.LoadScene("RedScene");
+        //}
+        //else // OFF
+        //{
+           // Debug.Log("No color selected yet. Current state: " + state);
+        //}
     }
 }

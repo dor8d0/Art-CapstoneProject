@@ -4,18 +4,24 @@ using UnityEngine.InputSystem;
 
 public class RestartScene : MonoBehaviour
 {
-    public float restartTime = 13f;
+    public float redrestartTime = 13f;
+    public float bluerestartTime = 13f;
     private float timer = 0f;
+    void Start()
+    {
+        //int state = GameData.selectedColorState;
 
+    }
     void Update()
     {
         timer += Time.deltaTime;
-
-        if (timer >= restartTime)
+        
+        if (timer >= bluerestartTime)
         {
             Scene currentScene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(currentScene.name);
         }
+
 
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {

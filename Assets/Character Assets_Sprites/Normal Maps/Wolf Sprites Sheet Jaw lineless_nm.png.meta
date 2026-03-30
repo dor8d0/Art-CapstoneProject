@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0b2aa0a2164d3e34c8ee68d52a853ff4
+guid: b60685e2b58059c4a941d58abb0ae751
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8052767800167709658
-    second: Lil Red Sprite Sheet 1 Lineless_n_0
+      213: -775109253963716126
+    second: Wolf Sprites Sheet Jaw lineless_nm_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lil Red Sprite Sheet 1 Lineless_n_0
+      name: Wolf Sprites Sheet Jaw lineless_nm_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 3500
-        height: 1080
+        height: 2000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 624cc44e952de3090800000000000000
-      internalID: -8052767800167709658
+      spriteID: 2e9ef5f7d324e35f0800000000000000
+      internalID: -775109253963716126
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Lil Red Sprite Sheet 1 Lineless_n_0: -8052767800167709658
+      Wolf Sprites Sheet Jaw lineless_nm_0: -775109253963716126
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
