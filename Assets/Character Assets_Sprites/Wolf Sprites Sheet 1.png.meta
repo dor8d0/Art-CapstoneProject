@@ -1,40 +1,28 @@
 fileFormatVersion: 2
-guid: 3f6be90f606552446859ce106f689acc
+guid: ba88b508decd7f04196bbc1f005bf3ce
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6835894149282882514
-    second: Lil Red Sprite Sheet 1_0
+      213: 4290749880150969221
+    second: Wolf Sprites Sheet 1_0
   - first:
-      213: -6531710348048393900
-    second: Lil Red Sprite Sheet 1_1
+      213: -3626161911021320254
+    second: Wolf Sprites Sheet 1_1
   - first:
-      213: 2775405053816057020
-    second: Lil Red Sprite Sheet 1_2
+      213: -2139735016521007465
+    second: Wolf Sprites Sheet 1_2
   - first:
-      213: 2712847822515424135
-    second: Lil Red Sprite Sheet 1_3
+      213: 3802771510663409560
+    second: Wolf Sprites Sheet 1_3
   - first:
-      213: -2308500601000684556
-    second: Lil Red Sprite Sheet 1_4
+      213: -2359907950826203603
+    second: Wolf Sprites Sheet 1_4
   - first:
-      213: 7887150177314378097
-    second: Lil Red Sprite Sheet 1_5
+      213: 5719527743543413333
+    second: Wolf Sprites Sheet 1_5
   - first:
-      213: -1188212915956281780
-    second: Lil Red Sprite Sheet 1_6
-  - first:
-      213: 960072319739134449
-    second: Lil Red Sprite Sheet 1_7
-  - first:
-      213: -5453495249357636583
-    second: Lil Red Sprite Sheet 1_8
-  - first:
-      213: 6298671393566144688
-    second: Lil Red Sprite Sheet 1_9
-  - first:
-      213: -24949378180624591
-    second: Lil Red Sprite Sheet 1_10
+      213: -352032148691526252
+    second: Wolf Sprites Sheet 1_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -130,211 +118,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lil Red Sprite Sheet 1_0
+      name: Wolf Sprites Sheet 1_0
       rect:
         serializedVersion: 2
-        x: 72
-        y: 2
-        width: 337
-        height: 1023
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e2c92d54d760221a0800000000000000
-      internalID: -6835894149282882514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lil Red Sprite Sheet 1_1
-      rect:
-        serializedVersion: 2
-        x: 466
-        y: 3
-        width: 333
-        height: 1023
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 45915d08b04ba55a0800000000000000
-      internalID: -6531710348048393900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lil Red Sprite Sheet 1_2
-      rect:
-        serializedVersion: 2
-        x: 793
-        y: 670
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbca7841138348620800000000000000
-      internalID: 2775405053816057020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lil Red Sprite Sheet 1_3
-      rect:
-        serializedVersion: 2
-        x: 864
-        y: 3
-        width: 337
-        height: 1023
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 78b49b6a8b8f5a520800000000000000
-      internalID: 2712847822515424135
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lil Red Sprite Sheet 1_4
-      rect:
-        serializedVersion: 2
-        x: 1236
-        y: 2
-        width: 361
-        height: 1021
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4f314913fee86ffd0800000000000000
-      internalID: -2308500601000684556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lil Red Sprite Sheet 1_5
-      rect:
-        serializedVersion: 2
-        x: 1649
-        y: 1
-        width: 338
-        height: 1021
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1719bf06c49c47d60800000000000000
-      internalID: 7887150177314378097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lil Red Sprite Sheet 1_6
-      rect:
-        serializedVersion: 2
-        x: 2038
-        y: 3
-        width: 370
-        height: 1022
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c4e05eaf5ae928fe0800000000000000
-      internalID: -1188212915956281780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lil Red Sprite Sheet 1_7
-      rect:
-        serializedVersion: 2
-        x: 2453
-        y: 2
-        width: 335
-        height: 1023
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1f18cb820bcd25d00800000000000000
-      internalID: 960072319739134449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lil Red Sprite Sheet 1_8
-      rect:
-        serializedVersion: 2
-        x: 2812
-        y: 104
-        width: 375
-        height: 801
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91cf1cde6fa4154b0800000000000000
-      internalID: -5453495249357636583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lil Red Sprite Sheet 1_9
-      rect:
-        serializedVersion: 2
-        x: 3314
+        x: 59
         y: 0
-        width: 160
-        height: 699
+        width: 454
+        height: 1945
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b8bc6ab240696750800000000000000
-      internalID: 6298671393566144688
+      spriteID: 58bc27a584ecb8b30800000000000000
+      internalID: 4290749880150969221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lil Red Sprite Sheet 1_10
+      name: Wolf Sprites Sheet 1_1
       rect:
         serializedVersion: 2
-        x: 1586
-        y: 629
-        width: 13
-        height: 12
+        x: 567
+        y: 0
+        width: 454
+        height: 1944
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,8 +155,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13f4d283cac57aff0800000000000000
-      internalID: -24949378180624591
+      spriteID: 2c7c58344f84dadc0800000000000000
+      internalID: -3626161911021320254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf Sprites Sheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 0
+        width: 475
+        height: 1935
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79efccad6522e42e0800000000000000
+      internalID: -2139735016521007465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf Sprites Sheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 0
+        width: 475
+        height: 1948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f611f7a8826c430800000000000000
+      internalID: 3802771510663409560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf Sprites Sheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 0
+        width: 490
+        height: 1948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d265268d83cef3fd0800000000000000
+      internalID: -2359907950826203603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf Sprites Sheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 558
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a85eced28df5f40800000000000000
+      internalID: 5719527743543413333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf Sprites Sheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 229
+        width: 233
+        height: 1408
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d59bb30a45d1bf0800000000000000
+      internalID: -352032148691526252
       vertices: []
       indices: 
       edges: []
@@ -375,29 +275,25 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 021d14ee0d2f3f34388d42ac9f0fd349
+    spriteID: 6f8c5751f4fd3bd4ab78c4abd41a6c7e
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures:
-    - texture: {fileID: 2800000, guid: c2ca02fb1ee96294f965d3e9cac020ae, type: 3}
+    - texture: {fileID: 2800000, guid: 3a97d1a05d39e234994676d1e2196f1c, type: 3}
       name: _NormalMap
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Lil Red Sprite Sheet 1_0: -6835894149282882514
-      Lil Red Sprite Sheet 1_1: -6531710348048393900
-      Lil Red Sprite Sheet 1_10: -24949378180624591
-      Lil Red Sprite Sheet 1_2: 2775405053816057020
-      Lil Red Sprite Sheet 1_3: 2712847822515424135
-      Lil Red Sprite Sheet 1_4: -2308500601000684556
-      Lil Red Sprite Sheet 1_5: 7887150177314378097
-      Lil Red Sprite Sheet 1_6: -1188212915956281780
-      Lil Red Sprite Sheet 1_7: 960072319739134449
-      Lil Red Sprite Sheet 1_8: -5453495249357636583
-      Lil Red Sprite Sheet 1_9: 6298671393566144688
+      Wolf Sprites Sheet 1_0: 4290749880150969221
+      Wolf Sprites Sheet 1_1: -3626161911021320254
+      Wolf Sprites Sheet 1_2: -2139735016521007465
+      Wolf Sprites Sheet 1_3: 3802771510663409560
+      Wolf Sprites Sheet 1_4: -2359907950826203603
+      Wolf Sprites Sheet 1_5: 5719527743543413333
+      Wolf Sprites Sheet 1_6: -352032148691526252
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
