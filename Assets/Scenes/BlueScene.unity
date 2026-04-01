@@ -744,6 +744,7 @@ GameObject:
   - component: {fileID: 992239984}
   - component: {fileID: 992239983}
   - component: {fileID: 992239985}
+  - component: {fileID: 992239986}
   m_Layer: 0
   m_Name: artcapstonebgtemp_0
   m_TagString: Untagged
@@ -838,6 +839,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   restartTime: 13
+--- !u!114 &992239986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992239982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9753bf2e65dffd459b627120c2319df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScaleBackgroundToCamera
+  mainCamera: {fileID: 887447082}
 --- !u!1 &1045178683
 GameObject:
   m_ObjectHideFlags: 0
