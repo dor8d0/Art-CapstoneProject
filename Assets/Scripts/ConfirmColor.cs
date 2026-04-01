@@ -66,7 +66,7 @@ public class ColorSelectionHandler : MonoBehaviour
         if (spotLight == null) return;
 
         // Cycle through states: 0 -> 1 -> 2 -> 0
-        state = (state + 1) % 3;
+        state = (state + 1) % 4;
         Debug.Log("Current State Integer: " + state);
 
         switch (state)
@@ -85,6 +85,11 @@ public class ColorSelectionHandler : MonoBehaviour
                 spotLight.color = Color.blue;
                 spotLight.intensity = 1f;
                 if(confirmButtonText != null) confirmButtonText.text = "Confirm Blue";
+                break;
+            case 3: // YELLOW
+                spotLight.color = Color.yellow;
+                spotLight.intensity = 1f;
+                if(confirmButtonText != null) confirmButtonText.text = "Confirm Yellow";
                 break;
         }
     }

@@ -43,6 +43,10 @@ public class LightCycler : MonoBehaviour
                 spotLight.color = Color.blue;
                 spotLight.intensity = 1f;
                 break;
+            case 3: // YELLOW
+                spotLight.color = Color.yellow;
+                spotLight.intensity = 1f;
+                break;
         }
     }
 }

@@ -18,19 +18,19 @@ public class SceneInt : MonoBehaviour
         {
         spotLight.color = GameData.selectedColor;
         spotLight.intensity = GameData.selectedIntensity;
-        Debug.Log("Restored light: color=" + spotLight.color + ", intensity=" + spotLight.intensity);
+        Debug.Log("Light Color =" + spotLight.color + ", intensity=" + spotLight.intensity);
         }
         
         if (animatorlilred != null)
         {
         animatorlilred.SetInteger("state", state); 
-        Debug.Log("animatorlilred parameter set to: " + state);
+        Debug.Log("animatorlilred set to: " + state);
         }
 
         if (animatorbbw != null)
         {
         animatorbbw.SetInteger("state", state); 
-        Debug.Log("animatorbbw parameter set to: " + state);
+        Debug.Log("animatorbbw set to: " + state);
         }
     }
 }
