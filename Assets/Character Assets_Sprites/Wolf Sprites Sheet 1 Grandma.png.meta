@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: f09e39810f75d744b84aef42c95e354e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5449593512275171506
+    second: Wolf Sprites Sheet 1 Grandma_0
+  - first:
+      213: 370187346350568026
+    second: Wolf Sprites Sheet 1 Grandma_1
+  - first:
+      213: -8297501910364399564
+    second: Wolf Sprites Sheet 1 Grandma_2
+  - first:
+      213: 7511580334061860016
+    second: Wolf Sprites Sheet 1 Grandma_3
+  - first:
+      213: -6428563879449215479
+    second: Wolf Sprites Sheet 1 Grandma_4
+  - first:
+      213: -2930332276370647098
+    second: Wolf Sprites Sheet 1 Grandma_5
+  - first:
+      213: 1262836214586880598
+    second: Wolf Sprites Sheet 1 Grandma_6
+  - first:
+      213: 9043268286345592953
+    second: Wolf Sprites Sheet 1 Grandma_7
+  - first:
+      213: 6872451418373994476
+    second: Wolf Sprites Sheet 1 Grandma_8
+  - first:
+      213: -5534544254264448350
+    second: Wolf Sprites Sheet 1 Grandma_9
+  - first:
+      213: -1563074769021518615
+    second: Wolf Sprites Sheet 1 Grandma_10
+  - first:
+      213: 3473372864570293984
+    second: Wolf Sprites Sheet 1 Grandma_11
+  - first:
+      213: -3450528767396718294
+    second: Wolf Sprites Sheet 1 Grandma_12
+  - first:
+      213: 7326591839587210012
+    second: Wolf Sprites Sheet 1 Grandma_13
+  - first:
+      213: -5772707573295608410
+    second: Wolf Sprites Sheet 1 Grandma_14
+  - first:
+      213: -8659190308767330565
+    second: Wolf Sprites Sheet 1 Grandma_15
+  - first:
+      213: 7396536490762374897
+    second: Wolf Sprites Sheet 1 Grandma_16
+  - first:
+      213: 4566217593505370327
+    second: Wolf Sprites Sheet 1 Grandma_17
+  - first:
+      213: -4429251653122438198
+    second: Wolf Sprites Sheet 1 Grandma_18
+  - first:
+      213: 3934073021996910701
+    second: Wolf Sprites Sheet 1 Grandma_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wolf Sprites Sheet 1 Grandma_0
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1232
+        width: 394
+        height: 684
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47a092e2972f54b0800000000000000
+      internalID: -5449593512275171506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf Sprites Sheet 1 Grandma_3
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 1232
+        width: 412
+        height: 684
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b43199048e7e3860800000000000000
+      internalID: 7511580334061860016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d94dba0ce1791f442bbf01ef18c2972c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: d749b577396a9a14c8390143ca3882c2, type: 3}
+      name: _NormalMap
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wolf Sprites Sheet 1 Grandma_0: -5449593512275171506
+      Wolf Sprites Sheet 1 Grandma_1: 370187346350568026
+      Wolf Sprites Sheet 1 Grandma_10: -1563074769021518615
+      Wolf Sprites Sheet 1 Grandma_11: 3473372864570293984
+      Wolf Sprites Sheet 1 Grandma_12: -3450528767396718294
+      Wolf Sprites Sheet 1 Grandma_13: 7326591839587210012
+      Wolf Sprites Sheet 1 Grandma_14: -5772707573295608410
+      Wolf Sprites Sheet 1 Grandma_15: -8659190308767330565
+      Wolf Sprites Sheet 1 Grandma_16: 7396536490762374897
+      Wolf Sprites Sheet 1 Grandma_17: 4566217593505370327
+      Wolf Sprites Sheet 1 Grandma_18: -4429251653122438198
+      Wolf Sprites Sheet 1 Grandma_19: 3934073021996910701
+      Wolf Sprites Sheet 1 Grandma_2: -8297501910364399564
+      Wolf Sprites Sheet 1 Grandma_20: 631697112
+      Wolf Sprites Sheet 1 Grandma_3: 7511580334061860016
+      Wolf Sprites Sheet 1 Grandma_4: -6428563879449215479
+      Wolf Sprites Sheet 1 Grandma_5: -2930332276370647098
+      Wolf Sprites Sheet 1 Grandma_6: 1262836214586880598
+      Wolf Sprites Sheet 1 Grandma_7: 9043268286345592953
+      Wolf Sprites Sheet 1 Grandma_8: 6872451418373994476
+      Wolf Sprites Sheet 1 Grandma_9: -5534544254264448350
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
