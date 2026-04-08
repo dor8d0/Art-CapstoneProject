@@ -6,26 +6,51 @@ using UnityEngine.SceneManagement;
 public class ColorSelectionHandler : MonoBehaviour
 {
     [Header("Lighting")]
-    public Light2D spotLight; 
-    
+    public Light2D spotLight;
+    public float onIntensity = 1f;
+    public float offIntensity = 0f;
+
     [Header("UI Buttons")]
-    public Button colorCycleButton;  
-    public Button confirmButton;    
+    public Button redButton;
+    public Button blueButton;
+    public Button yellowButton;
+    public Button confirmButton;
 
     [Header("Text")]
-    public Text confirmButtonText;         
+    public Text confirmButtonText;
 
-    // STATE DEFINITION: 0 = Off, 1 = Red, 2 = Blue
-    private int state = 0; 
+    // STATE: 0 = Off, 1 = Red, 2 = Blue, 3 = Yellow
+    private int state = 0;
+    private string selectedName = "";
 
     void Start()
     {
-        // --- AUTO-FIND REFERENCES ---
+        // Auto-find references if not assigned in Inspector
         if (spotLight == null)
             spotLight = GameObject.Find("Spot Light 2D")?.GetComponent<Light2D>();
 
-        if (colorCycleButton == null)
-            colorCycleButton = GameObject.Find("Color Button")?.GetComponent<Button>();
+        // Fallback: find any Light2D in scene
+        if (spotLight == null)
+        {
+            spotLight = FindObjectOfType<Light2D>();
+            if (spotLight != null)
+                Debug.Log("Found Light2D on GameObject: " + spotLight.gameObject.name);
+            else
+                Debug.LogWarning("No Light2D found in scene. Assign `spotLight` in the Inspector.");
+        }
+
+        if (redButton == null)
+            redButton = GameObject.Find("Red Button")?.GetComponent<Button>();
+
+        if (blueButton == null)
+            blueButton = GameObject.Find("Blue Button")?.GetComponent<Button>();
+
+        if (yellowButton == null)
+        {
+            yellowButton = GameObject.Find("Yellow Button")?.GetComponent<Button>();
+            if (yellowButton == null)
+                yellowButton = GameObject.Find("Green Button")?.GetComponent<Button>();
+        }
 
         if (confirmButton == null)
             confirmButton = GameObject.Find("Confirm Button")?.GetComponent<Button>();
@@ -33,77 +58,111 @@ public class ColorSelectionHandler : MonoBehaviour
         if (confirmButtonText == null && confirmButton != null)
             confirmButtonText = confirmButton.GetComponentInChildren<Text>();
 
-        // --- CODE-BASED BUTTON ASSIGNMENT ---
-        // This replaces needing to set them up in the Inspector
-        if (colorCycleButton != null)
+        // Wire up listeners in code so scene setup isn't required
+        if (redButton != null)
         {
-            colorCycleButton.onClick.RemoveAllListeners(); // Clear old actions
-            colorCycleButton.onClick.AddListener(CycleLightColor);
+            redButton.onClick.RemoveAllListeners();
+            redButton.onClick.AddListener(() => SetSelectedColor(Color.red, "Red", 1));
+        }
+
+        if (blueButton != null)
+        {
+            blueButton.onClick.RemoveAllListeners();
+            blueButton.onClick.AddListener(() => SetSelectedColor(Color.blue, "Blue", 2));
+        }
+
+        if (yellowButton != null)
+        {
+            yellowButton.onClick.RemoveAllListeners();
+            yellowButton.onClick.AddListener(() => SetSelectedColor(Color.yellow, "Yellow", 3));
         }
 
         if (confirmButton != null)
         {
-            confirmButton.onClick.RemoveAllListeners(); // Clear old actions
+            confirmButton.onClick.RemoveAllListeners();
             confirmButton.onClick.AddListener(ConfirmSelection);
+            confirmButton.gameObject.SetActive(true);
         }
 
-        // --- SETUP INITIAL STATE ---
-        if (confirmButton != null)
-        {
-            confirmButton.gameObject.SetActive(true);
-            if(confirmButtonText != null) confirmButtonText.text = "Select Color";
-        }
-        
+        // Initial UI
+        if (confirmButtonText != null)
+            confirmButtonText.text = "Select Color";
+
         if (spotLight != null)
         {
             spotLight.color = Color.black;
-            spotLight.intensity = 0f;
+            spotLight.intensity = onIntensity;
         }
     }
 
-    public void CycleLightColor()
+    // Centralized handler called by each color button
+    public void SetSelectedColor(Color color, string name, int newState)
     {
-        if (spotLight == null) return;
-
-        // Cycle through states: 0 -> 1 -> 2 -> 0
-        state = (state + 1) % 3;
-        Debug.Log("Current State Integer: " + state);
-
-        switch (state)
+        if (spotLight == null)
         {
-            case 0: // OFF
-                spotLight.color = Color.black;
-                spotLight.intensity = 0f;
-                if(confirmButtonText != null) confirmButtonText.text = "Select Color";
-                break;
-            case 1: // RED
-                spotLight.color = Color.red;
-                spotLight.intensity = 1f;
-                if(confirmButtonText != null) confirmButtonText.text = "Confirm Red";
-                break;
-            case 2: // BLUE
-                spotLight.color = Color.blue;
-                spotLight.intensity = 1f;
-                if(confirmButtonText != null) confirmButtonText.text = "Confirm Blue";
-                break;
+            Debug.LogWarning("SpotLight reference missing.");
+            return;
         }
+
+        // If the same color button is pressed while active, turn the light off
+        if (state == newState)
+        {
+            state = 0;
+            selectedName = "";
+            spotLight.color = Color.black;
+            spotLight.intensity = 0f;
+            if (confirmButtonText != null)
+                confirmButtonText.text = "Select Color";
+            return;
+        }
+
+        // Otherwise set the selected color
+        state = newState;
+        selectedName = name;
+        spotLight.color = color;
+        spotLight.intensity = 1f;
+
+        if (confirmButtonText != null)
+            confirmButtonText.text = "Confirm " + name;
     }
 
     public void ConfirmSelection()
     {
-        Debug.Log("Confirm Clicked. State is: " + state);
+        Debug.Log("Confirm Clicked. State is: " + state + ", Name: " + selectedName);
 
-        if (state == 1) // RED
+        if (spotLight == null)
         {
-            SceneManager.LoadScene("RedScene");
+            Debug.LogWarning("SpotLight reference missing.");
+            return;
         }
-        else if (state == 2) // BLUE
+
+        if (state == 0)
         {
-            SceneManager.LoadScene("BlueScene");
+            Debug.Log("No color selected.");
+            return;
         }
-        else // OFF
+
+        GameData.selectedColor = spotLight.color;
+        GameData.selectedIntensity = spotLight.intensity;
+        GameData.selectedColorState = state;
+        GameData.savedStates.Add(state); //appends the selected state to the list of past states
+        GameData.savedColors.Add(spotLight.color); //appends the selected color to the list of saved colors
+
+        // Load scene based on selected color. Update scene names if your project uses different names.
+        switch (state)
         {
-            Debug.Log("No color selected yet. Current state: " + state);
+            case 1:
+                SceneManager.LoadScene("RedScene");
+                break;
+            case 2:
+                SceneManager.LoadScene("RedScene");
+                break;
+            case 3:
+                SceneManager.LoadScene("RedScene");
+                break;
+            default:
+                Debug.LogWarning("Unknown color state: " + state);
+                break;
         }
     }
 }
