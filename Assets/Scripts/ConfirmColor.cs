@@ -153,10 +153,10 @@ public class ColorSelectionHandler : MonoBehaviour
                 SceneManager.LoadScene("RedScene");
                 break;
             case 2:
-                SceneManager.LoadScene("BlueScene");
+                SceneManager.LoadScene("RedScene");
                 break;
             case 3:
-                SceneManager.LoadScene("YellowScene");
+                SceneManager.LoadScene("RedScene");
                 break;
             default:
                 Debug.LogWarning("Unknown color state: " + state);
