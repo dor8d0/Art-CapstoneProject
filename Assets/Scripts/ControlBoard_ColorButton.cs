@@ -12,6 +12,8 @@ public class ControlBoard_ColorButton : MonoBehaviour
     [Header("Button Color")]
     public Color buttonColor; //the color that this button will change the spotlight to
 
+    private int state = 0; 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -26,6 +28,25 @@ public class ControlBoard_ColorButton : MonoBehaviour
     public void changeSpotlightColor()
     {
         spotLight.color = buttonColor;
+        if (spotLight == null) return;
+
+        // Cycle through states: 0 -> 1 -> 2 -> 0
+        state = (state + 1) % 4;
+        Debug.Log("Current State Integer: " + state);
+
+        switch (state)
+        {
+            case 0: // OFF
+                spotLight.color = Color.black;
+                spotLight.intensity = 0f;
+               // if(confirmButtonText != null) confirmButtonText.text = "Select Color";
+                break;
+            case 1: // Button Color
+                spotLight.color = buttonColor;
+                //if(confirmButtonText != null) confirmButtonText.text = "Confirm Red";
+                break;
+        }
+    
     }
 
     // Update is called once per frame
