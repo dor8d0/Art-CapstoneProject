@@ -145,7 +145,8 @@ public class ColorSelectionHandler : MonoBehaviour
         GameData.selectedColor = spotLight.color;
         GameData.selectedIntensity = spotLight.intensity;
         GameData.selectedColorState = state;
-        GameData.selectedStates.Add(state); //appends the selected state to the list of past states
+        GameData.savedStates.Add(state); //appends the selected state to the list of past states
+        GameData.savedColors.Add(spotLight.color); //appends the selected color to the list of saved colors
 
         // Load scene based on selected color. Update scene names if your project uses different names.
         switch (state)
