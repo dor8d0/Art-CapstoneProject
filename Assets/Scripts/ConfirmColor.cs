@@ -25,18 +25,17 @@ public class ColorSelectionHandler : MonoBehaviour
 
     void Start()
     {
-        // Auto-find references if not assigned in Inspector
+        // Auto-find references if not assigned
         if (spotLight == null)
             spotLight = GameObject.Find("Spot Light 2D")?.GetComponent<Light2D>();
 
-        // Fallback: find any Light2D in scene
         if (spotLight == null)
         {
             spotLight = FindObjectOfType<Light2D>();
             if (spotLight != null)
-                Debug.Log("Found Light2D on GameObject: " + spotLight.gameObject.name);
+                Debug.Log("Found Light2D on: " + spotLight.gameObject.name);
             else
-                Debug.LogWarning("No Light2D found in scene. Assign `spotLight` in the Inspector.");
+                Debug.LogWarning("No Light2D found.");
         }
 
         if (redButton == null)
@@ -58,7 +57,7 @@ public class ColorSelectionHandler : MonoBehaviour
         if (confirmButtonText == null && confirmButton != null)
             confirmButtonText = confirmButton.GetComponentInChildren<Text>();
 
-        // Wire up listeners in code so scene setup isn't required
+        // Button listeners
         if (redButton != null)
         {
             redButton.onClick.RemoveAllListeners();
@@ -91,36 +90,38 @@ public class ColorSelectionHandler : MonoBehaviour
         if (spotLight != null)
         {
             spotLight.color = Color.black;
-            spotLight.intensity = onIntensity;
+            spotLight.intensity = offIntensity;
         }
     }
 
-    // Centralized handler called by each color button
+    // Handle color selection
     public void SetSelectedColor(Color color, string name, int newState)
     {
         if (spotLight == null)
         {
-            Debug.LogWarning("SpotLight reference missing.");
+            Debug.LogWarning("SpotLight missing.");
             return;
         }
 
-        // If the same color button is pressed while active, turn the light off
+        // Toggle OFF if same button pressed
         if (state == newState)
         {
             state = 0;
             selectedName = "";
             spotLight.color = Color.black;
-            spotLight.intensity = 0f;
+            spotLight.intensity = offIntensity;
+
             if (confirmButtonText != null)
                 confirmButtonText.text = "Select Color";
+
             return;
         }
 
-        // Otherwise set the selected color
+        // Set new color
         state = newState;
         selectedName = name;
         spotLight.color = color;
-        spotLight.intensity = 1f;
+        spotLight.intensity = onIntensity;
 
         if (confirmButtonText != null)
             confirmButtonText.text = "Confirm " + name;
@@ -128,11 +129,11 @@ public class ColorSelectionHandler : MonoBehaviour
 
     public void ConfirmSelection()
     {
-        Debug.Log("Confirm Clicked. State is: " + state + ", Name: " + selectedName);
+        Debug.Log("Confirm Clicked. State: " + state);
 
         if (spotLight == null)
         {
-            Debug.LogWarning("SpotLight reference missing.");
+            Debug.LogWarning("SpotLight missing.");
             return;
         }
 
@@ -142,27 +143,35 @@ public class ColorSelectionHandler : MonoBehaviour
             return;
         }
 
+        // Save data
         GameData.selectedColor = spotLight.color;
         GameData.selectedIntensity = spotLight.intensity;
         GameData.selectedColorState = state;
-        GameData.savedStates.Add(state); //appends the selected state to the list of past states
-        GameData.savedColors.Add(spotLight.color); //appends the selected color to the list of saved colors
 
-        // Load scene based on selected color. Update scene names if your project uses different names.
-        switch (state)
+        GameData.savedStates.Add(state);
+        GameData.savedColors.Add(spotLight.color);
+
+        int choiceCount = GameData.savedStates.Count;
+        Debug.Log("Total choices: " + choiceCount);
+
+        // Scene list (ORDER MATTERS)
+        string[] scenes = { 
+            "RedScene", 
+            "Second Scene", 
+            "Third Scene", 
+            "Fourth Scene",
+            "End Scene"
+        };
+
+        int index = choiceCount - 1;
+
+        if (index < scenes.Length)
         {
-            case 1:
-                SceneManager.LoadScene("RedScene");
-                break;
-            case 2:
-                SceneManager.LoadScene("RedScene");
-                break;
-            case 3:
-                SceneManager.LoadScene("RedScene");
-                break;
-            default:
-                Debug.LogWarning("Unknown color state: " + state);
-                break;
+            SceneManager.LoadScene(scenes[index]);
+        }
+        else
+        {
+            SceneManager.LoadScene("End Scene");
         }
     }
 }
