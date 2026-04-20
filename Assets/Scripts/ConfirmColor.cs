@@ -25,7 +25,6 @@ public class ColorSelectionHandler : MonoBehaviour
 
     void Start()
     {
-        // Auto-find references if not assigned
         if (spotLight == null)
             spotLight = GameObject.Find("Spot Light 2D")?.GetComponent<Light2D>();
 
@@ -153,8 +152,12 @@ public class ColorSelectionHandler : MonoBehaviour
 
         int choiceCount = GameData.savedStates.Count;
         Debug.Log("Total choices: " + choiceCount);
+        
+        for (int i = 0; i < GameData.savedStates.Count; i++)
+          {
+          Debug.Log("Index " + i + ": " + GameData.savedStates[i]);
+          }
 
-        // Scene list (ORDER MATTERS)
         string[] scenes = { 
             "RedScene", 
             "Second Scene", 

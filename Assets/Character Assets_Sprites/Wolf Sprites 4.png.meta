@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: 391fcec20b0612c46a5732e11b902495
+guid: 6b2cf8ad9a3a43b47b45b37b7deabb0a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4459307947540310485
-    second: Grandma Sheet 1_0
+      213: 4660122487632758928
+    second: Wolf Sprites 4_0
   - first:
-      213: 8727948720769677822
-    second: Grandma Sheet 1_1
+      213: -7594107001172141872
+    second: Wolf Sprites 4_1
   - first:
-      213: 2005327466653448651
-    second: Grandma Sheet 1_2
+      213: -8064605295564237990
+    second: Wolf Sprites 4_2
   - first:
-      213: -8595603709379801329
-    second: Grandma Sheet 1_3
+      213: 8399496059149780913
+    second: Wolf Sprites 4_3
   - first:
-      213: -3317659492307263419
-    second: Grandma Sheet 1_4
+      213: -1666361026592564865
+    second: Wolf Sprites 4_4
   - first:
-      213: 7358458334096552223
-    second: Grandma Sheet 1_5
-  - first:
-      213: 5228982723041543087
-    second: Grandma Sheet 1_6
-  - first:
-      213: 6165579309213896652
-    second: Grandma Sheet 1_7
+      213: -6157060409222797762
+    second: Wolf Sprites 4_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,177 +115,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grandma Sheet 1_0
+      name: Wolf Sprites 4_0
       rect:
         serializedVersion: 2
-        x: 57
+        x: 59
         y: 0
-        width: 351
-        height: 1029
+        width: 454
+        height: 1945
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d9673da3f4a2ed30800000000000000
-      internalID: 4459307947540310485
+      spriteID: 098092d46b41ca040800000000000000
+      internalID: 4660122487632758928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grandma Sheet 1_1
+      name: Wolf Sprites 4_1
       rect:
         serializedVersion: 2
-        x: 468
+        x: 562
         y: 0
-        width: 351
-        height: 1029
+        width: 454
+        height: 1945
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef93d4f6e17ef1970800000000000000
-      internalID: 8727948720769677822
+      spriteID: 0d8d3d0faef4c9690800000000000000
+      internalID: -7594107001172141872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grandma Sheet 1_2
+      name: Wolf Sprites 4_2
       rect:
         serializedVersion: 2
-        x: 875
+        x: 1131
+        y: 1661
+        width: 145
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53d8283634c41090800000000000000
+      internalID: -8064605295564237990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolf Sprites 4_3
+      rect:
+        serializedVersion: 2
+        x: 1451
         y: 0
-        width: 321
-        height: 1030
+        width: 650
+        height: 1939
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc9763cc4ba54db10800000000000000
-      internalID: 2005327466653448651
+      spriteID: 1b78ae1d921019470800000000000000
+      internalID: 8399496059149780913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grandma Sheet 1_3
+      name: Wolf Sprites 4_4
       rect:
         serializedVersion: 2
-        x: 1205
+        x: 2154
         y: 0
-        width: 450
-        height: 1029
+        width: 467
+        height: 1957
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0f0360c7f746b880800000000000000
-      internalID: -8595603709379801329
+      spriteID: f79156e9975efd8e0800000000000000
+      internalID: -1666361026592564865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grandma Sheet 1_4
+      name: Wolf Sprites 4_5
       rect:
         serializedVersion: 2
-        x: 1726
-        y: 767
-        width: 204
-        height: 169
+        x: 2794
+        y: 0
+        width: 494
+        height: 1800
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 540a25bf44e45f1d0800000000000000
-      internalID: -3317659492307263419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grandma Sheet 1_5
-      rect:
-        serializedVersion: 2
-        x: 2024
-        y: 140
-        width: 375
-        height: 801
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f11765a3ede7e1660800000000000000
-      internalID: 7358458334096552223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grandma Sheet 1_6
-      rect:
-        serializedVersion: 2
-        x: 2421
-        y: 140
-        width: 366
-        height: 786
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa3cb8f0514119840800000000000000
-      internalID: 5228982723041543087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grandma Sheet 1_7
-      rect:
-        serializedVersion: 2
-        x: 1726
-        y: 553
-        width: 204
-        height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ccf413017b9809550800000000000000
-      internalID: 6165579309213896652
+      spriteID: e3667a7ed2abd8aa0800000000000000
+      internalID: -6157060409222797762
       vertices: []
       indices: 
       edges: []
@@ -300,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cc7e89b32fea7944ab08969a87350747
     internalID: 0
     vertices: []
     indices: 
@@ -310,14 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Grandma Sheet 1_0: 4459307947540310485
-      Grandma Sheet 1_1: 8727948720769677822
-      Grandma Sheet 1_2: 2005327466653448651
-      Grandma Sheet 1_3: -8595603709379801329
-      Grandma Sheet 1_4: -3317659492307263419
-      Grandma Sheet 1_5: 7358458334096552223
-      Grandma Sheet 1_6: 5228982723041543087
-      Grandma Sheet 1_7: 6165579309213896652
+      Wolf Sprites 4_0: 4660122487632758928
+      Wolf Sprites 4_1: -7594107001172141872
+      Wolf Sprites 4_2: -8064605295564237990
+      Wolf Sprites 4_3: 8399496059149780913
+      Wolf Sprites 4_4: -1666361026592564865
+      Wolf Sprites 4_5: -6157060409222797762
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
