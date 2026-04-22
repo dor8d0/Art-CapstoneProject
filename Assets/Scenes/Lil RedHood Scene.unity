@@ -967,7 +967,7 @@ GameObject:
   - component: {fileID: 1549014789}
   - component: {fileID: 1549014791}
   m_Layer: 0
-  m_Name: Lil Red Sprite Sheet 1_0
+  m_Name: 'Lil Red '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

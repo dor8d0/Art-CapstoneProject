@@ -1260,10 +1260,10 @@ MonoBehaviour:
   m_LocalBounds:
     m_Center: {x: 0, y: -0.00000011920929, z: 0}
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
-  m_PointLightInnerAngle: 27.917467
-  m_PointLightOuterAngle: 167.50595
-  m_PointLightInnerRadius: 4.3919344
-  m_PointLightOuterRadius: 13.263224
+  m_PointLightInnerAngle: 28.52
+  m_PointLightOuterAngle: 38.29
+  m_PointLightInnerRadius: 5.5965457
+  m_PointLightOuterRadius: 15.068578
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -1282,7 +1282,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780740847}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.99992204, w: 0.012489662}
+  m_LocalRotation: {x: 0, y: 0, z: 0.9483307, w: -0.3172837}
   m_LocalPosition: {x: 0.21, y: 6.43, z: 0.01}
   m_LocalScale: {x: 0.9288307, y: 0.4678272, z: 0.68683064}
   m_ConstrainProportionsScale: 0
@@ -1298,13 +1298,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 780740847}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 185fe176c3b319f408883dc3d24e3957, type: 3}
+  m_Script: {fileID: 11500000, guid: 1fcdfc4e63706734e94c0c2e09e5fc70, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LightExpanding
-  targetObject: {fileID: 780740849}
-  triggerX: -3.5
-  targetAngle: 140
-  expandSpeed: 40
+  m_EditorClassIdentifier: '::'
+  target: {fileID: 659356065}
+  light2D: {fileID: 780740848}
+  followSpeed: 5
+  stopX: 1.8
+  expandSpeed: 1.8
+  targetRadius: 10
 --- !u!1 &887447080
 GameObject:
   m_ObjectHideFlags: 0
