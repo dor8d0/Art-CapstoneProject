@@ -1145,6 +1145,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2049163227}
   - component: {fileID: 2049163226}
+  - component: {fileID: 2049163228}
+  - component: {fileID: 2049163229}
   m_Layer: 0
   m_Name: ARTCAPSTART_0
   m_TagString: Untagged
@@ -1226,6 +1228,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2049163228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049163225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f749682cc32e042bb4630238aeb797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneInt
+  spotLight: {fileID: 780740848}
+  animatorlilred: {fileID: 1262968814}
+  animatorbbw: {fileID: 659356063}
+--- !u!114 &2049163229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049163225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d9545cf009b04542861808de9012755, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RestartScene
+  redrestartTime: 13
+  bluerestartTime: 13
 --- !u!1 &2129645483
 GameObject:
   m_ObjectHideFlags: 0

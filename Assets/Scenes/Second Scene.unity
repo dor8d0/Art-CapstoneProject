@@ -220,6 +220,8 @@ GameObject:
   m_Component:
   - component: {fileID: 33582604}
   - component: {fileID: 33582603}
+  - component: {fileID: 33582605}
+  - component: {fileID: 33582606}
   m_Layer: 0
   m_Name: ARTCAPSTART_0
   m_TagString: Untagged
@@ -301,6 +303,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &33582605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33582602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7524b51dcf1162c4ea928f7e8503e944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Sceneint2
+  spotLight: {fileID: 780740848}
+  animatorgrandma: {fileID: 418954075}
+  animatordoor: {fileID: 0}
+  animatorbbw: {fileID: 659356063}
+  sceneOneState: 0
+--- !u!114 &33582606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33582602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d9545cf009b04542861808de9012755, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RestartScene
+  redrestartTime: 13
+  bluerestartTime: 13
 --- !u!1 &45492957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1263,7 +1296,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 28.52
   m_PointLightOuterAngle: 38.29
   m_PointLightInnerRadius: 5.5965457
-  m_PointLightOuterRadius: 15.068578
+  m_PointLightOuterRadius: 17.11331
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -1282,7 +1315,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780740847}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.9483307, w: -0.3172837}
+  m_LocalRotation: {x: 0, y: 0, z: 0.9363211, w: -0.35114503}
   m_LocalPosition: {x: 0.21, y: 6.43, z: 0.01}
   m_LocalScale: {x: 0.9288307, y: 0.4678272, z: 0.68683064}
   m_ConstrainProportionsScale: 0
@@ -1307,6 +1340,7 @@ MonoBehaviour:
   stopX: 1.8
   expandSpeed: 1.8
   targetRadius: 10
+  xOffset: 7
 --- !u!1 &887447080
 GameObject:
   m_ObjectHideFlags: 0

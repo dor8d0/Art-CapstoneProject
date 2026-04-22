@@ -1737,6 +1737,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2095886143}
   - component: {fileID: 2095886142}
+  - component: {fileID: 2095886144}
+  - component: {fileID: 2095886145}
   m_Layer: 0
   m_Name: ARTCAPSTART_0
   m_TagString: Untagged
@@ -1818,6 +1820,45 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2095886144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095886141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000ad73e8ebf9da4ea8903125bb6aa4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Sceneint3
+  spotLight: {fileID: 780740848}
+  animatorgrandma: {fileID: 0}
+  animatorball: {fileID: 850742653}
+  animatorlilred: {fileID: 1993018570}
+  animatorhunter: {fileID: 2107613367}
+  animatorbbw: {fileID: 659356063}
+  sceneOneState: 0
+  sprite: {fileID: 100002101}
+  ball: {fileID: 850742654}
+  ballform: {fileID: 850742652}
+  turkeyone: {fileID: 688348132}
+  turkeytwo: {fileID: 459286540}
+  turkeythree: {fileID: 1716372179}
+  grandmaoh: {fileID: 100002100}
+--- !u!114 &2095886145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095886141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cda641d2659737438848ebf5c669dc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RestartSceneThree
+  animator: {fileID: 659356063}
 --- !u!1 &2107613366
 GameObject:
   m_ObjectHideFlags: 0
