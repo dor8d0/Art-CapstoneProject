@@ -935,8 +935,8 @@ MonoBehaviour:
   m_LocalBounds:
     m_Center: {x: 0, y: -0.00000011920929, z: 0}
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
-  m_PointLightInnerAngle: 80.63
-  m_PointLightOuterAngle: 95.74
+  m_PointLightInnerAngle: 65.83
+  m_PointLightOuterAngle: 84.44
   m_PointLightInnerRadius: 4.3919344
   m_PointLightOuterRadius: 13.263224
   m_ShapeLightParametricSides: 5
@@ -958,7 +958,7 @@ Transform:
   m_GameObject: {fileID: 780740847}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.99992204, w: 0.012489662}
-  m_LocalPosition: {x: 0.21, y: 6.43, z: 0.01}
+  m_LocalPosition: {x: -2, y: 6.43, z: 0.01}
   m_LocalScale: {x: 0.9288307, y: 0.4678272, z: 0.68683064}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -976,8 +976,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 185fe176c3b319f408883dc3d24e3957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LightExpanding
-  targetObject: {fileID: 780740849}
-  triggerX: -3.5
+  targetObject: {fileID: 1993018572}
+  triggerX: 2
   targetAngle: 140
   expandSpeed: 40
 --- !u!1 &850742652

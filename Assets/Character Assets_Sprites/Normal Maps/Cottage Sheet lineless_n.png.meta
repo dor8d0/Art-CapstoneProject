@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5a040152115393c45a6a33d82c154932
+guid: c1967c64b0a511e44945d7604d8b6e28
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1450082328824212446
-    second: grandma in cottage sheet_0
+      213: 3943242132537174296
+    second: Cottage Sheet lineless_n_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -57,7 +57,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 1
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: grandma in cottage sheet_0
+      name: Cottage Sheet lineless_n_0
       rect:
         serializedVersion: 2
-        x: 712
-        y: 1706
-        width: 445
-        height: 635
+        x: 0
+        y: 0
+        width: 3500
+        height: 3000
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: edb63a8f13abf1410800000000000000
-      internalID: 1450082328824212446
+      spriteID: 8196b3dc3d539b630800000000000000
+      internalID: 3943242132537174296
       vertices: []
       indices: 
       edges: []
@@ -125,19 +125,17 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3d275197964db834785586d6e00f1a18
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-    secondaryTextures:
-    - texture: {fileID: 2800000, guid: 66993255b8b64eb4696b9fa4f117560c, type: 3}
-      name: _NormalMap
+    secondaryTextures: []
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      grandma in cottage sheet_0: 1450082328824212446
+      Cottage Sheet lineless_n_0: 3943242132537174296
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

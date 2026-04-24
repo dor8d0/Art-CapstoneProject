@@ -7,7 +7,7 @@ public class ColorSelectionHandler : MonoBehaviour
 {
     [Header("Lighting")]
     public Light2D spotLight;
-    public float onIntensity = 1f;
+    public float onIntensity = 4f;
     public float offIntensity = 0f;
 
     [Header("UI Buttons")]
@@ -60,19 +60,19 @@ public class ColorSelectionHandler : MonoBehaviour
         if (redButton != null)
         {
             redButton.onClick.RemoveAllListeners();
-            redButton.onClick.AddListener(() => SetSelectedColor(Color.red, "Red", 1));
+            redButton.onClick.AddListener(() => SetSelectedColor(new Color(0.769f, 0.133f, 0.137f, 1f), "Red", 1));
         }
 
         if (blueButton != null)
         {
             blueButton.onClick.RemoveAllListeners();
-            blueButton.onClick.AddListener(() => SetSelectedColor(Color.blue, "Blue", 2));
+            blueButton.onClick.AddListener(() => SetSelectedColor(new Color(0.082f, 0.086f, 0.835f, 1f), "Blue", 2));
         }
 
         if (yellowButton != null)
         {
             yellowButton.onClick.RemoveAllListeners();
-            yellowButton.onClick.AddListener(() => SetSelectedColor(Color.yellow, "Yellow", 3));
+            yellowButton.onClick.AddListener(() => SetSelectedColor(new Color(0.722f, 0.694f, 0.188f, 1f), "Yellow", 3));
         }
 
         if (confirmButton != null)
