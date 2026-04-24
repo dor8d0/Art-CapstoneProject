@@ -890,6 +890,7 @@ GameObject:
   - component: {fileID: 780740849}
   - component: {fileID: 780740848}
   - component: {fileID: 780740850}
+  - component: {fileID: 780740851}
   m_Layer: 0
   m_Name: Spot Light 2D
   m_TagString: Untagged
@@ -978,6 +979,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LightExpanding
   targetObject: {fileID: 1993018572}
   triggerX: 2
+  targetAngle: 140
+  expandSpeed: 40
+--- !u!114 &780740851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780740847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185fe176c3b319f408883dc3d24e3957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LightExpanding
+  targetObject: {fileID: 2107613369}
+  triggerX: 7
   targetAngle: 140
   expandSpeed: 40
 --- !u!1 &850742652
