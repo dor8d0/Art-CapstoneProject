@@ -5,6 +5,7 @@ public class ImageDisabler : MonoBehaviour
 
     public GameObject redhood;
     public GameObject wolf;
+    public GameObject wolfjaw;
     public GameObject house;
     public GameObject grandma;
 
@@ -20,6 +21,7 @@ public class ImageDisabler : MonoBehaviour
         wolf.GetComponent<SpriteRenderer>().enabled = false;
         house.GetComponent<SpriteRenderer>().enabled = false;
         grandma.GetComponent<SpriteRenderer>().enabled = false;
+        wolfjaw.GetComponent<SpriteRenderer>().enabled = false;
 
         //re-enables certain sprites depending on which scene you're in
 
@@ -31,11 +33,13 @@ public class ImageDisabler : MonoBehaviour
         {
             wolf.GetComponent<SpriteRenderer>().enabled = true; //re-enables wolf sprite
             house.GetComponent<SpriteRenderer>().enabled = true;
+            wolfjaw.GetComponent<SpriteRenderer>().enabled = true;
         }
         else if (GameData.savedStates.Count == 2)
         {
             wolf.GetComponent<SpriteRenderer>().enabled = true; //re-enables wolf sprite
             house.GetComponent<SpriteRenderer>().enabled = true;
+            wolfjaw.GetComponent<SpriteRenderer>().enabled = true;
             
             if (GameData.savedStates[0] != 1)
             {
