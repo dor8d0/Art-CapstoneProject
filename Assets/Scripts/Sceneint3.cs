@@ -16,7 +16,7 @@ public class Sceneint3 : MonoBehaviour
     public GameObject ballform, turkeyone, turkeytwo, turkeythree, grandmaoh;
     void Start()
     {
-        int state = GameData.selectedColorState;
+        int state = GameData.savedStates[2];
         ballform.SetActive(false);
         turkeyone.SetActive(false);
         turkeytwo.SetActive(false);
@@ -39,7 +39,7 @@ public class Sceneint3 : MonoBehaviour
 
         if (spotLight != null)
         {
-            spotLight.color = GameData.selectedColor;
+            spotLight.color = GameData.savedColors[2];
             spotLight.intensity = GameData.selectedIntensity;
         }
         

@@ -10,13 +10,13 @@ public class SceneInt : MonoBehaviour
 
     void Start()
     {
-        int state = GameData.selectedColorState;
+        int state = GameData.savedStates[0];
 
         Debug.Log("State from previous scene: " + state);
 
         if (spotLight != null)
         {
-        spotLight.color = GameData.selectedColor;
+        spotLight.color = GameData.savedColors[0];
         spotLight.intensity = GameData.selectedIntensity;
         Debug.Log("Light Color =" + spotLight.color + ", intensity=" + spotLight.intensity);
         }

@@ -10,7 +10,7 @@ public class Sceneint2 : MonoBehaviour
     public int sceneOneState;
     void Start()
     {
-        int state = GameData.selectedColorState;
+        int state = GameData.savedStates[1];
 
         if (GameData.savedStates.Count > 0)
         {
@@ -28,7 +28,7 @@ public class Sceneint2 : MonoBehaviour
 
         if (spotLight != null)
         {
-            spotLight.color = GameData.selectedColor;
+            spotLight.color = GameData.savedColors[1];
             spotLight.intensity = GameData.selectedIntensity;
         }
         
