@@ -245,7 +245,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 221, y: 656}
+  m_AnchoredPosition: {x: 223, y: 555}
   m_SizeDelta: {x: 105.86, y: 75.88}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &151514715
@@ -268,13 +268,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'How to play!
-
-    Select a color to apply onto each scene and see how
-    it affects the story.  Each scene will impact the scene different. Choose wisley!'
+  m_text: "HOW TO PLAY!\nSelect a color to apply onto each scene and see how it affects
+    the story.  \nEach scene will impact the scene different. Choose wisley! SPACE
+    BAR TO CONTINUE! "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dedd0ea71f1cf6848871b0ab2f68cfd2, type: 2}
-  m_sharedMaterial: {fileID: -2384514510650028990, guid: dedd0ea71f1cf6848871b0ab2f68cfd2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b697ccdcdbfb5754b8fd03a3700e1f4a, type: 2}
+  m_sharedMaterial: {fileID: 424308019611018967, guid: b697ccdcdbfb5754b8fd03a3700e1f4a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -298,8 +297,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
