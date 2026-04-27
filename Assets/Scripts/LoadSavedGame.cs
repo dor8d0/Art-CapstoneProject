@@ -53,6 +53,8 @@ public class LoadSavedGame : MonoBehaviour
         if (data != null )
         {
             if (data.savedStates != null) {
+                GameData.gameFinished = false;
+                GameData.showingFullPlayback = false;
                 SceneManager.LoadScene("Lil RedHood Scene");
             }
             else

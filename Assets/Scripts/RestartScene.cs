@@ -18,14 +18,38 @@ public class RestartScene : MonoBehaviour
         
         if (timer >= bluerestartTime)
         {
-            Scene currentScene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(currentScene.name);
+            //will load the epilogue if you reached a route ending
+            if (GameData.savedStates[0] == 3)
+            {
+                SceneManager.LoadScene("Epilouge");
+            }
+            else if (GameData.showingFullPlayback == true) //if the game is playing back all the scenes
+            {
+                SceneManager.LoadScene("Second Scene");
+            }
+            else
+            {
+                SceneManager.LoadScene("Lil RedHood Scene");
+            }
         }
 
 
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
-            SceneManager.LoadScene("Lil RedHood Scene");
+            //will load the epilogue if you reached a route ending
+            if (GameData.savedStates[0] == 3)
+            {
+                SceneManager.LoadScene("Epilouge");
+            }
+            else if (GameData.showingFullPlayback == true) //if the game is playing back all the scenes
+            {
+                SceneManager.LoadScene("Second Scene");
+            }
+            else
+            {
+                SceneManager.LoadScene("Lil RedHood Scene");
+            }
+            
         }
     }
 }
