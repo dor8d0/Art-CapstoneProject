@@ -20,7 +20,7 @@ public class RestartSceneTwo : MonoBehaviour
             }
             else //if the playback is already being shown, loads the epilogue scene
             {
-                SceneManager.LoadScene("Epilouge");
+                SceneManager.LoadScene("Epilogue");
             }
         }
 
@@ -69,7 +69,7 @@ public class RestartSceneTwo : MonoBehaviour
             }
             else //if the playback is already being shown, loads the epilogue scene
             {
-                SceneManager.LoadScene("Epilouge");
+                SceneManager.LoadScene("Epilogue");
             }
         }
 
@@ -103,7 +103,7 @@ public class RestartSceneTwo : MonoBehaviour
             {
                 if (GameData.savedStates[1] == 3)
                 {
-                    SceneManager.LoadScene("Epilouge");
+                    SceneManager.LoadScene("Epilogue");
                 }
                 else
                 {

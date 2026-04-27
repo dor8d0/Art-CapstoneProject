@@ -21,7 +21,7 @@ public class RestartScene : MonoBehaviour
             //will load the epilogue if you reached a route ending
             if (GameData.savedStates[0] == 3)
             {
-                SceneManager.LoadScene("Epilouge");
+                SceneManager.LoadScene("Epilogue");
             }
             else if (GameData.showingFullPlayback == true) //if the game is playing back all the scenes
             {
@@ -39,7 +39,7 @@ public class RestartScene : MonoBehaviour
             //will load the epilogue if you reached a route ending
             if (GameData.savedStates[0] == 3)
             {
-                SceneManager.LoadScene("Epilouge");
+                SceneManager.LoadScene("Epilogue");
             }
             else if (GameData.showingFullPlayback == true) //if the game is playing back all the scenes
             {

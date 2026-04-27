@@ -20,7 +20,7 @@ public class RestartSceneThree : MonoBehaviour
             }
             else //if the playback is already being shown, loads the epilogue scene
             {
-                SceneManager.LoadScene("Epilouge");
+                SceneManager.LoadScene("Epilogue");
             }
         }
 
@@ -33,7 +33,7 @@ public class RestartSceneThree : MonoBehaviour
             }
             else //if the playback is already being shown, loads the epilogue scene
             {
-                SceneManager.LoadScene("Epilouge");
+                SceneManager.LoadScene("Epilogue");
             }
         }
 
@@ -46,7 +46,7 @@ public class RestartSceneThree : MonoBehaviour
             }
             else //if the playback is already being shown, loads the epilogue scene
             {
-                SceneManager.LoadScene("Epilouge");
+                SceneManager.LoadScene("Epilogue");
             }
         }
 
@@ -59,7 +59,7 @@ public class RestartSceneThree : MonoBehaviour
             }
             else //if the playback is already being shown, loads the epilogue scene
             {
-                SceneManager.LoadScene("Epilouge");
+                SceneManager.LoadScene("Epilogue");
             }
         }
 
@@ -72,7 +72,7 @@ public class RestartSceneThree : MonoBehaviour
             }
             else //if the playback is already being shown, loads the epilogue scene
             {
-                SceneManager.LoadScene("Epilouge");
+                SceneManager.LoadScene("Epilogue");
             }
         }
 
@@ -85,7 +85,7 @@ public class RestartSceneThree : MonoBehaviour
             }
             else //if the playback is already being shown, loads the epilogue scene
             {
-                SceneManager.LoadScene("Epilouge");
+                SceneManager.LoadScene("Epilogue");
             }
         }
     }
