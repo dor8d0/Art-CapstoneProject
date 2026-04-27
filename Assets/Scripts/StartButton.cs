@@ -16,6 +16,10 @@ public class StartButton : MonoBehaviour
 
     public void GoToNextScene()
     {
+        GameData.gameFinished = false;
+        GameData.showingFullPlayback = false;
+        GameData.savedStates.Clear();
+        GameData.savedColors.Clear();
         SceneManager.LoadScene("Lil RedHood Scene");
     }
 }

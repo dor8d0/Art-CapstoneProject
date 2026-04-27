@@ -13,47 +13,80 @@ public class RestartSceneThree : MonoBehaviour
 
         if (state.IsName("bbw blue red jump scared and vomite") && state.normalizedTime >= 1f && !hasRestarted)
         {
-            hasRestarted = true;
-
-            Scene currentScene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(currentScene.name);
+            if (GameData.showingFullPlayback == false)
+            {
+                GameData.showingFullPlayback = true; //restarts the first scene to show full playback
+                SceneManager.LoadScene("RedScene");
+            }
+            else //if the playback is already being shown, loads the epilogue scene
+            {
+                SceneManager.LoadScene("Epilogue");
+            }
         }
 
         if (state.IsName("bbw grandma outfit vomit") && state.normalizedTime >= 1f && !hasRestarted)
         {
-            hasRestarted = true;
-
-            Scene currentScene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(currentScene.name);
+            if (GameData.showingFullPlayback == false)
+            {
+                GameData.showingFullPlayback = true; //restarts the first scene to show full playback
+                SceneManager.LoadScene("RedScene");
+            }
+            else //if the playback is already being shown, loads the epilogue scene
+            {
+                SceneManager.LoadScene("Epilogue");
+            }
         }
 
         if (state.IsName("bbw grandma outfit run away") && state.normalizedTime >= 1f && !hasRestarted)
         {
-            hasRestarted = true;
-
-            Scene currentScene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(currentScene.name);
+            if (GameData.showingFullPlayback == false)
+            {
+                GameData.showingFullPlayback = true; //restarts the first scene to show full playback
+                SceneManager.LoadScene("RedScene");
+            }
+            else //if the playback is already being shown, loads the epilogue scene
+            {
+                SceneManager.LoadScene("Epilogue");
+            }
         }
 
         if (state.IsName("BBW RUN AWAY") && state.normalizedTime >= 1f && !hasRestarted)
         {
-            hasRestarted = true;
-
-            Scene currentScene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(currentScene.name);
+            if (GameData.showingFullPlayback == false)
+            {
+                GameData.showingFullPlayback = true; //restarts the first scene to show full playback
+                SceneManager.LoadScene("RedScene");
+            }
+            else //if the playback is already being shown, loads the epilogue scene
+            {
+                SceneManager.LoadScene("Epilogue");
+            }
         }
 
         if (state.IsName("BBW RUN AWAY grandma") && state.normalizedTime >= 1f && !hasRestarted)
         {
-            hasRestarted = true;
-
-            Scene currentScene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(currentScene.name);
+            if (GameData.showingFullPlayback == false)
+            {
+                GameData.showingFullPlayback = true; //restarts the first scene to show full playback
+                SceneManager.LoadScene("RedScene");
+            }
+            else //if the playback is already being shown, loads the epilogue scene
+            {
+                SceneManager.LoadScene("Epilogue");
+            }
         }
 
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
-            SceneManager.LoadScene("Lil RedHood Scene");
+            if (GameData.showingFullPlayback == false)
+            {
+                GameData.showingFullPlayback = true; //restarts the first scene to show full playback
+                SceneManager.LoadScene("RedScene");
+            }
+            else //if the playback is already being shown, loads the epilogue scene
+            {
+                SceneManager.LoadScene("Epilogue");
+            }
         }
     }
 }

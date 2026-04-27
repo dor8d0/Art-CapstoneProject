@@ -300,6 +300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1608436315}
   - component: {fileID: 1608436314}
+  - component: {fileID: 1608436316}
   m_Layer: 5
   m_Name: UIDocument
   m_TagString: Untagged
@@ -330,6 +331,17 @@ MonoBehaviour:
   m_PivotReferenceSize: 0
   m_Pivot: 0
   m_WorldSpaceCollider: {fileID: 0}
+--- !u!114 &1608436316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608436313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f3c42f9b1d5431da9a1d2b0c6a7e531, type: 3}
+  m_Name: 
 --- !u!4 &1608436315
 Transform:
   m_ObjectHideFlags: 0

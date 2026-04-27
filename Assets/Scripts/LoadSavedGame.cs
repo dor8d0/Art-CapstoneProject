@@ -31,7 +31,7 @@ public class LoadSavedGame : MonoBehaviour
             GameData.savedStates.Add(data.savedStates[i]);
 
             //appends a color based off the integer value
-            switch (data.savedColors[i]) {
+            switch (data.savedStates[i]) {
                 
                 case 1:
                     GameData.savedColors.Add(Color.red);
@@ -53,6 +53,8 @@ public class LoadSavedGame : MonoBehaviour
         if (data != null )
         {
             if (data.savedStates != null) {
+                GameData.gameFinished = false;
+                GameData.showingFullPlayback = false;
                 SceneManager.LoadScene("Lil RedHood Scene");
             }
             else
