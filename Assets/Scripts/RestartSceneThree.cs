@@ -18,9 +18,9 @@ public class RestartSceneThree : MonoBehaviour
                 GameData.showingFullPlayback = true; //restarts the first scene to show full playback
                 SceneManager.LoadScene("RedScene");
             }
-            else //if the playback is already being shown, loads the epilogue scene
+            else //if the playback is already being shown, loads the FullStory scene
             {
-                SceneManager.LoadScene("Epilogue");
+                SceneManager.LoadScene("FullStory");
             }
         }
 
@@ -31,9 +31,9 @@ public class RestartSceneThree : MonoBehaviour
                 GameData.showingFullPlayback = true; //restarts the first scene to show full playback
                 SceneManager.LoadScene("RedScene");
             }
-            else //if the playback is already being shown, loads the epilogue scene
+            else //if the playback is already being shown, loads the FullStory scene
             {
-                SceneManager.LoadScene("Epilogue");
+                SceneManager.LoadScene("FullStory");
             }
         }
 
@@ -44,9 +44,9 @@ public class RestartSceneThree : MonoBehaviour
                 GameData.showingFullPlayback = true; //restarts the first scene to show full playback
                 SceneManager.LoadScene("RedScene");
             }
-            else //if the playback is already being shown, loads the epilogue scene
+            else //if the playback is already being shown, loads the FullStory scene
             {
-                SceneManager.LoadScene("Epilogue");
+                SceneManager.LoadScene("FullStory");
             }
         }
 
@@ -57,9 +57,9 @@ public class RestartSceneThree : MonoBehaviour
                 GameData.showingFullPlayback = true; //restarts the first scene to show full playback
                 SceneManager.LoadScene("RedScene");
             }
-            else //if the playback is already being shown, loads the epilogue scene
+            else //if the playback is already being shown, loads the FullStory scene
             {
-                SceneManager.LoadScene("Epilogue");
+                SceneManager.LoadScene("FullStory");
             }
         }
 
@@ -70,9 +70,9 @@ public class RestartSceneThree : MonoBehaviour
                 GameData.showingFullPlayback = true; //restarts the first scene to show full playback
                 SceneManager.LoadScene("RedScene");
             }
-            else //if the playback is already being shown, loads the epilogue scene
+            else //if the playback is already being shown, loads the FullStory scene
             {
-                SceneManager.LoadScene("Epilogue");
+                SceneManager.LoadScene("FullStory");
             }
         }
 
@@ -83,9 +83,9 @@ public class RestartSceneThree : MonoBehaviour
                 GameData.showingFullPlayback = true; //restarts the first scene to show full playback
                 SceneManager.LoadScene("RedScene");
             }
-            else //if the playback is already being shown, loads the epilogue scene
+            else //if the playback is already being shown, loads the FullStory scene
             {
-                SceneManager.LoadScene("Epilogue");
+                SceneManager.LoadScene("FullStory");
             }
         }
     }
