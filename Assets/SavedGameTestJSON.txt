@@ -1,0 +1,4 @@
+{
+	"savedStates": [1],
+	"savedColors": [1] 
+}
